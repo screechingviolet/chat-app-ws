@@ -136,7 +136,7 @@ export default function ChatSystem() {
             >
               <div className="flex justify-between items-center bg-purple-200 p-2">
                 <span className="font-semibold text-sm">
-                  Chat with {person?.name}
+                  Chat with {person?.name || "(departed user)"}
                 </span>
                 <button
                   className="text-black-500 font-bold px-2"
